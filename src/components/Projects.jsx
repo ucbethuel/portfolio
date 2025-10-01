@@ -5,10 +5,10 @@ const Projects = () => {
   const projects = [
     {
       title: 'Cloud Engineering Portfolio',
-      description: 'Modern portfolio website showcasing cloud engineering skills and projects. Built with modern web technologies and deployed on Vercel.',
+      description: 'Modern portfolio website showcasing cloud engineering skills and projects. Built with modern web technologies and React.',
       github: 'https://github.com/ucbethuel/',
-      live: 'https://ucbethuel-ng.vercel.app',
-      tech: ['HTML/CSS', 'JavaScript', 'Vercel']
+      live: '#',
+      tech: ['HTML/CSS', 'JavaScript', 'React']
     },
     {
       title: 'FastAPI Web Applications',

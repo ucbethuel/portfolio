@@ -6,7 +6,7 @@ A modern, responsive React portfolio website showcasing my skills as a Cloud Eng
 
 ## 🚀 Live Demo
 
-Visit the live website: [ucbethuel-ng.vercel.app](https://ucbethuel-ng.vercel.app)
+Visit the live website: [Your Portfolio URL]
 
 ## ✨ Features
 
@@ -28,7 +28,6 @@ Visit the live website: [ucbethuel-ng.vercel.app](https://ucbethuel-ng.vercel.ap
 - **CSS3**: Flexbox, Grid, animations, and responsive design
 - **JavaScript (ES6+)**: Modern JavaScript features and React hooks
 - **Google Fonts**: Inter font family for typography
-- **Vercel**: Hosting and deployment platform
 
 ## 📁 Project Structure
 
@@ -54,7 +53,6 @@ portfolio/
 ├── index.html          # HTML template
 ├── package.json        # Project dependencies and scripts
 ├── vite.config.js      # Vite configuration
-├── vercel.json         # Vercel deployment configuration
 ├── .gitignore          # Git ignore rules
 └── README.md           # Project documentation
 ```
@@ -66,7 +64,6 @@ portfolio/
 - Node.js (v16 or higher)
 - npm or yarn
 - Git
-- Vercel account (for deployment)
 
 ### Local Development
 
@@ -99,54 +96,24 @@ portfolio/
    npm run preview
    ```
 
-## 🌐 Deployment to Vercel
+## 🌐 Deployment
 
-### Method 1: Deploy via Vercel CLI
+### Build for Production
 
-1. **Install Vercel CLI**
-   ```bash
-   npm i -g vercel
-   ```
-
-2. **Login to Vercel**
-   ```bash
-   vercel login
-   ```
-
-3. **Build and Deploy**
+1. **Build the project**
    ```bash
    npm run build
-   vercel --prod
    ```
 
-4. **Follow the prompts** and your site will be live!
-
-### Method 2: Deploy via GitHub Integration (Recommended)
-
-1. **Push to GitHub**
+2. **Preview production build**
    ```bash
-   git add .
-   git commit -m "React portfolio setup"
-   git push origin main
+   npm run preview
    ```
 
-2. **Connect to Vercel**
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect it's a React/Vite project
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-   - Click "Deploy"
-
-3. **Automatic Deployments**
-   - Every push to main branch will trigger a new deployment
-   - Pull requests get preview deployments automatically
-
-4. **Custom Domain** (optional)
-   - In your Vercel dashboard, go to Project Settings
-   - Add your custom domain
-   - Update DNS records as instructed
+3. **Deploy to your preferred hosting platform**
+   - The built files will be in the `dist` directory
+   - Upload the contents of `dist` to your hosting provider
+   - Popular options include Netlify, GitHub Pages, or any static hosting service
 
 ## 🎨 Customization
 
@@ -222,7 +189,6 @@ The current color scheme uses:
    - Check CSS class names match JSX className attributes
 
 3. **Deployment issues**
-   - Check `vercel.json` configuration
    - Ensure build command is `npm run build`
    - Verify output directory is set to `dist`
 
@@ -249,7 +215,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - [Font Awesome](https://fontawesome.com) for icons
 - [Google Fonts](https://fonts.google.com) for typography
-- [Vercel](https://vercel.com) for hosting platform
 - The open-source community for inspiration and resources
 
 ---

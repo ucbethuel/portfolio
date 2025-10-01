@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <p>&copy; 2025 Uchenna Bethel Orji. Built with ❤️ and deployed on Vercel.</p>
+          <p>&copy; 2025 Uchenna Bethel Orji. Built with ❤️ and React.</p>
           <div className="footer-links">
             {socialLinks.map((link, index) => (
               <a 
